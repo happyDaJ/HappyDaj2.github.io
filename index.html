@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+    <style>
+         .header {
+            background: linear-gradient(135deg, #3A5F8C 0%, #7EB09B 100%);
+            color: white;
+           
+            text-align: center;
+            margin-bottom: 4rem;
+        }
+    </style>
+</head>
+<body>
+    <header class="text-center header mb-4">
+      <!-- 轮播 -->
+<div id="demo" class="carousel slide" data-bs-ride="carousel">
+ 
+  <!-- 指示符 -->
+ <div class="carousel-indicators">
+   <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+   <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+   <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+ </div>
+ 
+ <!-- 轮播图片 -->
+ <div class="carousel-inner">
+   <div class="carousel-item active">
+     <img src="https://static.jyshare.com/images/mix/img_fjords_wide.jpg" class="d-block" style="width:100%">
+   </div>
+   <div class="carousel-item">
+     <img src="https://static.jyshare.com/images/mix/img_nature_wide.jpg" class="d-block" style="width:100%">
+   </div>
+   <div class="carousel-item">
+     <img src="https://static.jyshare.com/images/mix/img_mountains_wide.jpg" class="d-block" style="width:100%">
+   </div>
+ </div>
+ 
+ <!-- 左右切换按钮 -->
+ <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+   <span class="carousel-control-prev-icon"></span>
+ </button>
+ <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+   <span class="carousel-control-next-icon"></span>
+ </button>
+</div>
+    </header> 
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+      <!-- Brand -->
+      <a class="navbar-brand" href="#">Navbar</a>
+     
+      <!-- Toggler/collapsibe Button -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+     
+      <!-- Navbar links -->
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li> 
+        </ul>
+      </div> 
+    </nav>
+    
+    <main class="container">
+       <div class="row">
+      <div class="col-md-3">
+      <aside class="sidebar"> 
+        <div class="container mt-3  mb-4"">
+       
+        <div class="card" style="width:15rem">
+          <img class="card-img-top" src="https://static.jyshare.com/images/mix/img_avatar.png" alt="Card image" style="width:100%">
+          <div class="card-body">
+            <h4 class="card-title">John Doe</h4>
+            <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
+            <a href="#" class="btn btn-primary">See Profile</a>
+          </div>
+        </div>
+      </aside>
+      </div>
+      <div class="col-md-9">
+        <div class="card mb-4" id="about">
+          <div class="card-body">
+              <h2 class="card-title">学术背景</h2>
+              <p class="card-text">GPA 3.9/4.0，清华大学智能机器人实验室成员...</p>
+          </div>
+      </div>
+      <div class="card mb-4" id="projects">
+        <div class="card-header">
+            获奖项目
+        </div>
+        <ul class="list-unstyled">
+            <li class="media mb-4">
+                <div class="media-body" style="padding-top:10px ;">
+                    <h5 class="mt-0 mb-1 ">机器视觉算法研究</h5>
+                    2024全国大学生AI创新大赛一等奖...
+                </div>
+            </li>
+            <li class="media mb-4">
+                <div class="media-body" style="padding-top:10px ;">
+                    <h5 class="mt-0 mb-1">教育机器人开发</h5>
+                    清华大学"挑战杯"特等奖...
+                </div>
+            </li>
+        </ul>
+    </div>
+       </div></div>
+    </div>
+  </main>
+  <footer class="container" style="background-color:#2D3339;padding: 8rem;" >aaaa</footer>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>
